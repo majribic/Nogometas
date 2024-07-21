@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Nogometas
 {
-    public class Nogometas : Oseba
+    public class Igralec : Oseba
     {
         int stevilkaDresa;
         string pozicija;
@@ -22,8 +22,8 @@ namespace Nogometas
         public int SteviloRumenihKartonov { get => steviloRumenihKartonov; set => steviloRumenihKartonov = value; }
         public int SteviloRdecihKartonov { get => steviloRdecihKartonov; set => steviloRdecihKartonov = value; }
 
-        public Nogometas():base() { }
-        public Nogometas(int stevilkaDresa, string pozicija, int steviloGolov, int steviloAsistenc, int steviloRumenihKartonov, int steviloRdecihKartonov): base( ime, priimek, datumRojstva, drzavaRojstva)
+        public Igralec():base() { }
+        public Igralec(int stevilkaDresa, string pozicija, int steviloGolov, int steviloAsistenc, int steviloRumenihKartonov, int steviloRdecihKartonov) : base( ime, priimek, datumRojstva, drzavaRojstva)
         {
             this.stevilkaDresa = stevilkaDresa;
             this.pozicija = pozicija;

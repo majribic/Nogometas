@@ -14,8 +14,8 @@ namespace Nogometas
         int gostjeGoli;
         DateTime datum;
         Stadion stadion;
-        List<Nogometas> domaciIgralci;
-        List<Nogometas> gostjeIgralci;
+        List<Igralec> domaciIgralci;
+        List<Igralec> gostjeIgralci;
 
         public Tekma(Klub domaci, Klub gostje, DateTime datum, Stadion stadion)
         {
@@ -25,8 +25,8 @@ namespace Nogometas
             this.stadion = stadion;
             domaciGoli = 0;
             gostjeGoli = 0;
-            domaciIgralci = new List<Nogometas>();
-            gostjeIgralci = new List<Nogometas>();
+            domaciIgralci = new List<Igralec>();
+            gostjeIgralci = new List<Igralec>();
         }
 
         public Tekma()
@@ -37,8 +37,8 @@ namespace Nogometas
             stadion = null;
             domaciGoli = 0;
             gostjeGoli = 0;
-            domaciIgralci = new List<Nogometas>();
-            gostjeIgralci = new List<Nogometas>();
+            domaciIgralci = new List<Igralec>();
+            gostjeIgralci = new List<Igralec>();
         }
     }
 }

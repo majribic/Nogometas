@@ -11,7 +11,7 @@ namespace Nogometas
         string imeKluba;
         string mesto;
         string drzava;
-        List<Nogometas> igralci;
+        List<Igralec> igralci;
         Trener trener;
         Stadion stadion;
 
@@ -19,11 +19,11 @@ namespace Nogometas
         public string Mesto { get => mesto; set => mesto = value; }
         public string Drzava { get => drzava; set => drzava = value; }
 
-        public List<Nogometas> Igralci { get => igralci; set => igralci = value; }
+        public List<Igralec> Igralci { get => igralci; set => igralci = value; }
         public Trener Trener { get => trener; set => trener = value; }
         public Stadion Stadion { get => stadion; set => stadion = value; }
 
-        public Klub(string imeKluba, string mesto, string drzava, List<Nogometas> igralci, Trener trener, Stadion stadion)
+        public Klub(string imeKluba, string mesto, string drzava, List<Igralec> igralci, Trener trener, Stadion stadion)
         {
             this.imeKluba = imeKluba;
             this.mesto = mesto;
