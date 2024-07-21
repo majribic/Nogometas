@@ -15,7 +15,7 @@ namespace Nogometas
         int steviloRumenihKartonov;
         int steviloRdecihKartonov;
 
-        public Igralec(int stevilkaDresa, string pozicija, int steviloGolov, int steviloAsistenc, int steviloRumenihKartonov, int steviloRdecihKartonov) : base( ime, priimek, datumRojstva, drzavaRojstva)
+        public Igralec(string ime, string priimek, DateTime datumRojstva, string drzavaRojstva, int stevilkaDresa, string pozicija, int steviloGolov, int steviloAsistenc, int steviloRumenihKartonov, int steviloRdecihKartonov) : base( ime, priimek, datumRojstva, drzavaRojstva)
         {
             this.stevilkaDresa = stevilkaDresa;
             this.pozicija = pozicija;

@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace Nogometas
 {
-    public class Oseba
+    public abstract class Oseba
     {
-        public string ime;
-        public string priimek;
-        public DateTime datumRojstva;
-        public string drzavaRojstva;
+        protected string ime;
+        protected string priimek;
+        protected DateTime datumRojstva;
+        protected string drzavaRojstva;
 
         public Oseba(string ime, string priimek, DateTime datumRojstva, string drzavaRojstva)
         {
@@ -21,4 +21,5 @@ namespace Nogometas
             this.drzavaRojstva = drzavaRojstva;
         }
     }
+
 }

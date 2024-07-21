@@ -20,7 +20,5 @@ namespace Nogometas
             this.kapaciteta = kapaciteta;
             this.klub = klub;
         }
-
-        public Stadion() { }
     }
 }
