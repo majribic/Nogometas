@@ -20,9 +20,5 @@ namespace Nogometas
             this.datumRojstva = datumRojstva;
             this.drzavaRojstva = drzavaRojstva;
         }
-
-        public Oseba() : this("", "", DateTime.MinValue, "")
-        {
-        }
     }
 }

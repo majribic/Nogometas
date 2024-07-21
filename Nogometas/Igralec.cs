@@ -15,14 +15,6 @@ namespace Nogometas
         int steviloRumenihKartonov;
         int steviloRdecihKartonov;
 
-        public int StevilkaDresa { get => stevilkaDresa; set => stevilkaDresa = value; }
-        public string Pozicija { get => pozicija; set => pozicija = value; }
-        public int SteviloGolov { get => steviloGolov; set => steviloGolov = value; }
-        public int SteviloAsistenc { get => steviloAsistenc; set => steviloAsistenc = value; }
-        public int SteviloRumenihKartonov { get => steviloRumenihKartonov; set => steviloRumenihKartonov = value; }
-        public int SteviloRdecihKartonov { get => steviloRdecihKartonov; set => steviloRdecihKartonov = value; }
-
-        public Igralec():base() { }
         public Igralec(int stevilkaDresa, string pozicija, int steviloGolov, int steviloAsistenc, int steviloRumenihKartonov, int steviloRdecihKartonov) : base( ime, priimek, datumRojstva, drzavaRojstva)
         {
             this.stevilkaDresa = stevilkaDresa;
